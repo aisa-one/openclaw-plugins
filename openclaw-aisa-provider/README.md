@@ -38,7 +38,7 @@ openclaw-aisa-provider/
 ## Local installation
 
 ```bash
-openclaw plugins install ./openclaw-aisa-provider
+openclaw plugins install ./openclaw-aisa-model-provider
 openclaw gateway restart
 ```
 
