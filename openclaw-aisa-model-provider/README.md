@@ -24,7 +24,7 @@ The bundled catalog currently includes:
 ## Directory layout
 
 ```text
-openclaw-aisa-provider/
+openclaw-aisa-model-provider/
 ├── package.json
 ├── openclaw.plugin.json
 ├── index.ts
