@@ -1,0 +1,38 @@
+{
+  "id": "aisa",
+  "name": "AIsa Provider",
+  "description": "Native OpenClaw provider plugin for the AIsa unified Chinese model gateway",
+  "version": "0.1.0",
+  "providers": ["aisa"],
+  "providerAuthEnvVars": {
+    "aisa": ["AISA_API_KEY"]
+  },
+  "providerAuthChoices": [
+    {
+      "provider": "aisa",
+      "method": "api-key",
+      "choiceId": "aisa-api-key",
+      "choiceLabel": "AIsa API key",
+      "groupId": "aisa",
+      "groupLabel": "AIsa",
+      "groupHint": "China model gateway",
+      "optionKey": "aisaApiKey",
+      "cliFlag": "--aisa-api-key",
+      "cliOption": "--aisa-api-key <key>",
+      "cliDescription": "AIsa API key"
+    }
+  ],
+  "uiHints": {
+    "apiKey": {
+      "label": "API key",
+      "help": "Used for the AIsa unified OpenAI-compatible endpoint",
+      "placeholder": "sk-...",
+      "sensitive": true
+    }
+  },
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}

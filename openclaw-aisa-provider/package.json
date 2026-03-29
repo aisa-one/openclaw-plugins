@@ -1,0 +1,18 @@
+{
+  "name": "@aisa/openclaw-aisa-provider",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpenClaw native provider plugin for the AIsa unified Chinese model gateway",
+  "type": "module",
+  "openclaw": {
+    "compat": {
+      "pluginApi": "0.1.0"
+    },
+    "build": {
+      "openclawVersion": "2026.3.28"
+    },
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
