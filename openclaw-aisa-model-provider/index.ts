@@ -12,7 +12,7 @@ import { buildAisaProvider } from "./src/provider-catalog.js";
 
 export default definePluginEntry({
   id: PROVIDER_ID,
-  name: "AIsa Provider",
+  name: "Chinese LLM Models Gateway",
   description: "Native OpenClaw provider plugin for the AIsa unified Chinese model gateway",
   register(api) {
     api.registerProvider({

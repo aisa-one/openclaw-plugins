@@ -1,6 +1,6 @@
 {
   "id": "aisa",
-  "name": "AIsa Provider",
+  "name": "Chinese LLM Models Gateway",
   "description": "Native OpenClaw provider plugin for the AIsa unified Chinese model gateway",
   "version": "0.1.0",
   "providers": ["aisa"],

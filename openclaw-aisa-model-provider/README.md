@@ -1,6 +1,6 @@
-# AIsa Provider Plugin for OpenClaw
+# Chinese LLM Models Gateway Plugin for OpenClaw
 
-This package converts the AIsa provider pull request into a **native OpenClaw code plugin** that can be published to **ClawHub** as a **Code Plugin**.
+This package converts the Chinese LLM Models Gateway pull request into a **native OpenClaw code plugin** that can be published to **ClawHub** as a **Code Plugin**.
 
 ## What this plugin does
 
