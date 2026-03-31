@@ -2,7 +2,7 @@
   "id": "aisa",
   "name": "Chinese LLM Models Gateway",
   "description": "Native OpenClaw provider plugin for the AIsa unified Chinese model gateway",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "providers": ["aisa"],
   "providerAuthEnvVars": {
     "aisa": ["AISA_API_KEY"]
